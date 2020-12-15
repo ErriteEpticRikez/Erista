@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package Lumina.client;
+//Hello I exist!
+message ClientHello
+{
+    string clientVersion = 1;
+}
+
+message ClientHelloAck
+{
+    bool clientPass = 1;
+}

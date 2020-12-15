@@ -1,0 +1,12 @@
+[package]
+name = "Raven"
+version = "0.1.0"
+authors = ["Michael Riley <riley117@pnw.edu>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+prost = "0.6"
+Lumina = { path = "Lumina" }
+#lumina = { path -"C:\Users\bizmi\Documents\Hackathon DO\Hackthon DO\Rust Crates\Lumina"}
